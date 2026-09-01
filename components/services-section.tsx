@@ -46,36 +46,40 @@ const SERVICES: Service[] = [
     icon: Code2,
     title: "Web Development",
     description:
-      "End-to-end builds with React, Next.js, and TypeScript — from first commit to production deploy.",
+      "Modern websites and web applications built with React, Next.js, JavaScript, and TypeScript.",
     included: [
-      "Custom web apps",
+      "Responsive websites",
+      "React / Next.js applications",
       "API integration",
-      "Performance optimization",
     ],
   },
   {
     icon: Palette,
-    title: "UI / UX Design",
+    title: "WEBSITE & UI DEVELOPMENT",
     description:
-      "Interfaces that are as considered as they are functional, built with accessibility in from the start.",
-    included: ["Design systems", "Prototyping", "Accessibility audits"],
+      "Clean, responsive interfaces focused on usability, accessibility, and a smooth user experience.",
+    included: ["Landing pages", "Responsive layouts", "UI implementation"],
   },
   {
     icon: GraduationCap,
-    title: "Technical Mentorship",
+    title: "PROGRAMMING TUTORING",
     description:
-      "One-on-one or team sessions breaking down complex concepts into things people can actually use.",
-    included: ["Code walkthroughs", "Career guidance", "Pair programming"],
+      "Practical, beginner-friendly programming lessons that turn complex concepts into things you can actually understand.",
+    included: [
+      "Python & JavaScript",
+      "Web development",
+      "Programming fundamentals",
+    ],
   },
   {
     icon: Wrench,
-    title: "Code Review & Consulting",
+    title: "TECHNICAL SUPPORT",
     description:
-      "A second set of senior eyes on your codebase — catching issues before they become expensive.",
+      "Hands-on help troubleshooting websites, applications, and common development issues.",
     included: [
-      "Architecture review",
-      "Refactoring plans",
-      "Best-practice audits",
+      "Bug troubleshooting",
+      "Development setup",
+      "Debugging assistance",
     ],
   },
 ];

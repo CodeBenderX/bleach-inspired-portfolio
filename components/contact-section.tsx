@@ -57,22 +57,22 @@ const useInView = <T extends HTMLElement>({
 };
 
 type SocialLink = {
-  icon: typeof LuGithub | typeof Linkedin | typeof XIcon;
+  icon: typeof LuGithub | typeof Linkedin | typeof Mail;
   label: string;
   href: string;
 };
 
 const SOCIAL_LINKS: SocialLink[] = [
-  { icon: LuGithub, label: "GitHub", href: "https://github.com/yourusername" },
+  {
+    icon: Mail,
+    label: "Email",
+    href: "mailto:angelo.tiquio@outlook.com",
+  },
+  { icon: LuGithub, label: "GitHub", href: "https://github.com/CodeBenderX" },
   {
     icon: Linkedin,
     label: "LinkedIn",
-    href: "https://linkedin.com/in/yourusername",
-  },
-  {
-    icon: XIcon,
-    label: "Twitter / X",
-    href: "https://twitter.com/yourusername",
+    href: "https://www.linkedin.com/in/angelotiquio23",
   },
 ];
 
@@ -133,16 +133,6 @@ export const ContactSection = ({
           something works? I read every message myself — no forms, no
           gatekeeping.
         </p>
-
-        <a
-          href={`mailto:${email}`}
-          className={`group mb-12 inline-flex items-center gap-3 border-b-2 border-red-600 pb-2 text-2xl font-medium text-white transition-all delay-300 duration-700 hover:text-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-red-500 sm:text-3xl ${
-            isInView ? "translate-y-0 opacity-100" : "translate-y-6 opacity-0"
-          }`}
-        >
-          <Mail aria-hidden="true" className="h-6 w-6 shrink-0 text-red-600" />
-          {email}
-        </a>
 
         <div
           className={`flex items-center gap-6 transition-all delay-500 duration-700 ${
