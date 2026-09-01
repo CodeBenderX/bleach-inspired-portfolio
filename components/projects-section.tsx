@@ -45,13 +45,13 @@ type Project = {
 
 const PROJECTS: Project[] = [
   {
-    title: "Project One",
+    title: "Flavorhub — A Flavorful Recipe Sharing Platform",
     description:
-      "A short, punchy description of what this project does and the problem it solves.",
-    imageSrc: "/placeholder-project-1.jpg",
-    tags: ["Next.js", "TypeScript", "Tailwind"],
+      "Discover recipes, share flavors, and turn every meal into something special. Flavorhub is a community-driven recipe sharing platform built with React and Node.js, designed to connect food enthusiasts and home cooks. Users can explore a wide variety of recipes, share their own culinary creations, and engage with a vibrant community of flavor lovers.",
+    imageSrc: "/flavorhub.png",
+    tags: ["MongoDB", "Express.js", "React", "Node.js"],
     liveUrl: "https://example.com",
-    repoUrl: "https://github.com/yourusername/project-one",
+    repoUrl: "https://github.com/CodeBenderX/FlavorHub.git",
   },
   {
     title: "Project Two",
