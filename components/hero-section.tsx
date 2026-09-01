@@ -61,7 +61,7 @@ export const HeroSection = ({
         </div>
 
         {/* Headline */}
-        <h1 className="font-[var(--font-display)] text-6xl uppercase leading-[0.95] tracking-wide text-white opacity-0 animate-fade-up [animation-delay:250ms] [animation-fill-mode:forwards] sm:text-8xl lg:text-9xl">
+        <h1 className="font-[var(--font-display)] text-5xl uppercase leading-[0.95] tracking-wide text-white opacity-0 animate-fade-up [animation-delay:250ms] [animation-fill-mode:forwards] sm:text-8xl lg:text-8xl">
           {name}
           <span className="block text-red-600">Unleashed.</span>
         </h1>
