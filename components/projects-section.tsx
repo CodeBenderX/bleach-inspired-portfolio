@@ -67,7 +67,7 @@ const PROJECTS: Project[] = [
     description:
       "Sigwa is a lightweight weather forecasting app built with Python and Django, designed to provide users with quick and reliable access to current weather conditions and forecasts. Simple, practical, and easy to use—Sigwa helps you know what the weather has in store before you step outside.",
     imageSrc: "/sigwa.png",
-    tags: ["Next.js", "Prisma", "tRPC"],
+    tags: ["React", "Python", "Django", "OpenWeatherMap API"],
     repoUrl: "https://github.com/yourusername/project-three",
   },
 ];
