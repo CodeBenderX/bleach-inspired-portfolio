@@ -63,9 +63,9 @@ const PROJECTS: Project[] = [
     repoUrl: "https://github.com/yourusername/project-two",
   },
   {
-    title: "Project Three",
+    title: "Sigwa — Weather at a Glance",
     description:
-      "A short, punchy description of what this project does and the problem it solves.",
+      "Sigwa is a lightweight weather forecasting app built with Python and Django, designed to provide users with quick and reliable access to current weather conditions and forecasts. Simple, practical, and easy to use—Sigwa helps you know what the weather has in store before you step outside.",
     imageSrc: "/placeholder-project-3.jpg",
     tags: ["Next.js", "Prisma", "tRPC"],
     repoUrl: "https://github.com/yourusername/project-three",
