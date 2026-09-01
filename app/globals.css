@@ -1,5 +1,50 @@
 @import "tailwindcss";
 
+@theme {
+  --animate-slash-draw: slashDraw 1.1s ease-out forwards;
+  --animate-fade-up: fadeUp 0.7s ease-out forwards;
+  --animate-pulse-glow: pulseGlow 4s ease-in-out infinite;
+}
+
+@keyframes slashDraw {
+  0% {
+    stroke-dashoffset: 1400;
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulseGlow {
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
